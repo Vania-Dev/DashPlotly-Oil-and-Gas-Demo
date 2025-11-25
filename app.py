@@ -79,9 +79,9 @@ app.layout = html.Div(
         # Header
         html.Div(
             [
-                # SPS Logo.
+                #Logo.
                 html.Img(
-                    src='https://www.spsolutions.com.mx/assets/img/SPS_logo.png',
+                    src=app.get_asset_url('SMAEPYP.png'),
                     className='two columns',
                     style={"width":100,"height":100}
                 ),
@@ -95,7 +95,7 @@ app.layout = html.Div(
                 # Buttom contact us
                 html.A(
                     html.Button("Contact Us", id='learnmore'),
-                    href="https://www.spsolutions.com.mx/",
+                    href="https://ivancastaneda.super.site",
                     className="two columns"
                 )
             ],
